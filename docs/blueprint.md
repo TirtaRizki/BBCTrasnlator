@@ -1,4 +1,4 @@
-# **App Name**: BasaTranslator
+# **App Name**: BBCTranslator
 
 ## Core Features:
 

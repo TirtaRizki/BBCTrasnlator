@@ -209,7 +209,7 @@ export default function BasaTranslatorPage() {
           </Form>
         </CardContent>
         <CardFooter className="p-6 text-center text-xs text-muted-foreground">
-          Powered by Genkit AI
+          Powered by BBC TEAM
         </CardFooter>
       </Card>
     </main>

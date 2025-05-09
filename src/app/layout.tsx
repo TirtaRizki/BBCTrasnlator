@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'BasaTranslator',
+  title: 'BBCTranslator',
   description: 'Translate between Indonesian and Sundanese',
 };
 
