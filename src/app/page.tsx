@@ -103,10 +103,10 @@ export default function BasaTranslatorPage() {
             <Languages className="h-8 w-8 text-primary" />
           </div>
           <CardTitle className="text-3xl font-bold text-primary">
-            BasaTranslator
+            BASA TRANSLATOR
           </CardTitle>
           <CardDescription className="text-muted-foreground pt-1">
-            Translate between Indonesian and Sundanese with ease.
+          Terjemahan Bahasa Indonesia ke Sundanese dengan Mudah
           </CardDescription>
         </CardHeader>
         <CardContent className="p-6">
@@ -170,7 +170,7 @@ export default function BasaTranslatorPage() {
                 name="inputText"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Your Text</FormLabel>
+                    <FormLabel>Input Kata Anda</FormLabel>
                     <FormControl>
                       <Textarea
                         placeholder="Enter text to translate..."
@@ -196,7 +196,7 @@ export default function BasaTranslatorPage() {
               </Button>
 
               <FormItem>
-                <FormLabel>Translation</FormLabel>
+                <FormLabel>Terjemahan</FormLabel>
                 <Textarea
                   readOnly
                   value={outputText}
@@ -209,7 +209,7 @@ export default function BasaTranslatorPage() {
           </Form>
         </CardContent>
         <CardFooter className="p-6 text-center text-xs text-muted-foreground">
-          Powered by BBC TEAM
+          Dibuat Oleh BBC TEAM - Pemrograman Bahasa Alami
         </CardFooter>
       </Card>
     </main>
